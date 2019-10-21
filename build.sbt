@@ -11,7 +11,7 @@ isSnapshot := false
 scalaVersion := "2.11.12"
 
 libraryDependencies ++= Seq(
-  "org.adada" %% "ada-web" % "0.8.0"
+  "org.adada" %% "ada-server" % "0.8.0"
 )
 
 // POM settings for Sonatype
