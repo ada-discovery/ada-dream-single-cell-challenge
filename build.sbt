@@ -12,6 +12,7 @@ scalaVersion := "2.11.12"
 
 resolvers ++= Seq(
   "Sci Java" at "https://maven.scijava.org/content/repositories/public/", // for the T-SNE lib
+  "bnd libs" at "https://peterbanda.net/maven2/", // to remove once upgraded to ada-server 0.8.1
   Resolver.mavenLocal
 )
 
