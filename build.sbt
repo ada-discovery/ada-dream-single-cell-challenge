@@ -2,7 +2,7 @@ organization := "org.adada"
 
 name := "ada-dream-single-cell-challenge"
 
-version := "0.0.1"
+version := "0.1.0"
 
 description := "Ada extension for Single Cell Transcriptomics DREAM Challenge containing a few handy runnables/scripts."
 
@@ -11,13 +11,11 @@ isSnapshot := false
 scalaVersion := "2.11.12"
 
 resolvers ++= Seq(
-  "Sci Java" at "https://maven.scijava.org/content/repositories/public/", // for the T-SNE lib
-  "bnd libs" at "https://peterbanda.net/maven2/", // to remove once upgraded to ada-server 0.8.1
   Resolver.mavenLocal
 )
 
 libraryDependencies ++= Seq(
-  "org.adada" %% "ada-server" % "0.8.0"
+  "org.adada" %% "ada-server" % "0.8.1"
 )
 
 // POM settings for Sonatype
